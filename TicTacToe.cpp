@@ -35,7 +35,6 @@ bool win(int n) {   //displays the winner
 void check(int n) { //checks whether the game is a draw or a win
     for (int i = 0; i < 3; i++) {
         if ((space[i][0] == space[i][1] && space[i][0] == space[i][2]) || (space[0][i] == space[1][i] && space[0][i] == space[2][i])) {
-            cout << "jhkhv\n";
             tie = false;
             win(n);
             break;
